@@ -1,0 +1,55 @@
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 70%;
+    max-width: 800px;
+}
+
+h1 {
+    color: orangered;
+}
+
+.block-example {
+    border: 2px solid orangered;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #444;
+    color: white;
+    position: relative;
+}
+
+
+.block-example h2 {
+    color: yellow;
+}
+
+
+.overflow-text {
+    color: orangered;
+    background-color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    bottom: 87px; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.block-example p:last-of-type {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: white;
+}
